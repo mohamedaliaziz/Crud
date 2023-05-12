@@ -1,0 +1,107 @@
+*{
+  direction: rtl !important;
+}
+
+::-webkit-datetime-edit { padding: 1em; }
+::-webkit-datetime-edit-fields-wrapper { background: silver; }
+::-webkit-datetime-edit-text { color: red; padding: 0 0.3em; }
+::-webkit-datetime-edit-month-field { color: blue; }
+::-webkit-datetime-edit-day-field { color: green; }
+::-webkit-datetime-edit-year-field { color: purple; }
+::-webkit-inner-spin-button { display: none; }
+::-webkit-calendar-picker-indicator { background: orange; }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.arfaa{
+  position: absolute;
+  top: -3px;
+  left: 40px;
+  width: 72px;
+  
+}
+.mohamed_arfaa{
+  color:#0dcaf0 !important;
+  font-weight: bold !important;
+  text-decoration:none;
+  font-size: 32px;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #007bff;
+    
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.delete {
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+
+  }
+  
+  th {
+    background-color: #ddd;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  input[type="number"] {
+    width: 70px;
+  }
+  
+  span {
+    font-weight: bold;
+  }
+  

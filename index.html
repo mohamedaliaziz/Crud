@@ -1,0 +1,475 @@
+<!-- <html>
+
+<head>
+    <title>Product Management</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-9">
+                <label for="name">الاسم:</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="col-md-3">
+                <label for="start">الاثنين:</label>
+
+                <input type="date" id="start" name="trip-start" value="2023-03-20" min="2023-03-19" max="2222-12-31">
+
+            </div>
+        </div>
+        <div class="row text-center">
+
+            <div class="col-md-12 d-flex">
+
+                <div class="col-md-6">
+                    <label for="ye">سعر الابيض</label>
+                    <input type="text" class="form-control " id="white_chick_price">
+                </div>
+                <div class="col-md-6">
+                    <label for="white_chick">كتكوت ابيض:</label>
+                    <input type="text" class="form-control  " id="white_katkout_qty">
+                </div>
+
+            </div>
+            <div class="col-md-12 d-flex">
+
+                <div class="col-md-6">
+                    <label for="sasso_chick">سعر الساسو:</label>
+                    <input type="text" class="form-control col-md-3" id="sasso_chick_price">
+
+                </div>
+                <div class="col-md-6">
+                    <label for="ye_price"> كتكوت ساسو:</label>
+                    <input type="text" class="form-control col-md-3" id="sasso_katkout_qty">
+
+                </div>
+            </div>
+            <div class="col-md-12 d-flex">
+
+                <div class="col-md-6">
+                    <label for="sasso_chick_price">سعر البلدي:</label>
+                    <input type="text" class="form-control col-md-3" id="baladi_chick_price">
+
+                </div>
+                <div class="col-md-6">
+
+                    <label for="sasso_chick_3">كتكوت بلدي:</label>
+                    <input type="text" class="form-control col-md-3" id="baladi_katkout_qty">
+                </div>
+
+            </div>
+            <div class="col-md-12 d-flex">
+
+                <div class="col-md-6">
+                    <label for="sasso_chick_2"> سعر الدقي:</label>
+                    <input type="text" class="form-control col-md-3" id="doki_chick_price">
+                </div>
+                <div class="col-md-6">
+                    <label for="sasso_chick_price_3"> كتكوت الدقي:</label>
+                    <input type="text" class="form-control col-md-3" id="doki_katkout_qty">
+                </div>
+            </div>
+            <div class="col-md-12 d-flex">
+
+                <div class="col-md-6">
+                    <label for="chick_price"> سعر البط :</label>
+                    <input type="text" class="form-control col-md-3" id="duck_price">
+                </div>
+                <div class="col-md-6">
+
+                    <label for="sasso_chick_price_2">اليط :</label>
+                    <input type="text" class="form-control col-md-3" id="duck_katkout_qty">
+
+                </div>
+            </div>
+            <div class="col-md-12 d-flex">
+
+                <div class="col-md-6">
+                    <label for="chick_price"> المدفوع :</label>
+                    <input type="text" class="form-control col-md-3" id="pay">
+                </div>
+                <div class="col-md-6">
+
+                    <label for="sasso_chick_price_2">القديم :</label>
+                    <input type="text" class="form-control col-md-3" id="old">
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+    <div class="row text-center mt-4">
+        <div class="col-md-12">
+            <button class="btn btn-primary" id="add-btn">إضافة</button>
+        </div>
+    </div>
+    <div class="row text-center mt-4">
+        <div class="col-md-12">
+            <button class="btn btn-primary delete-btn">حذف</button>
+        </div>
+    </div>
+   
+
+    إضافة جدول جديد
+    <div class="row mt-4 container-fluid m-auto">
+        <div class="col-md-12">
+            <table class="table text-black overflow-hidden text-center" id="myTable">
+                <thead class="header-row">
+                    <tr>
+
+                        <th>الباقي </th>
+                        <th>القديم </th>
+                        <th>المدفوع </th>
+                        <th>الاجمالي </th>
+                        <th>السعر </th>
+                        <th>اليط</th>
+
+                        <th>السعر </th>
+                        <th> الدقي</th>
+
+                        <th>السعر </th>
+                        <th> البلدي</th>
+
+                        <th>السعر </th>
+                        <th> الساسو</th>
+
+                        <th>السعر </th>
+                        <th> الابيض</th>
+
+                        <th>التاريخ</th>
+                        <th>الاسم</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+    
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+  -->
+<!-- </html> 
+<!DOCTYPE html> -->
+<html>
+
+<head>
+    <title>Product Management</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body class="bg-info text-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="#" class="mohamed_arfaa">الاستاذ : محمد عرفه </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a onclick="Expenses()" class="nav-link active" aria-current="page" href="#"><button
+                                class="btn btn-info">المبيعات</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a onclick="Sales()" class="nav-link" href="#"><button
+                                class="btn btn-info">المشتريات</button></a>
+                    </li>
+
+
+                </ul>
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <h6 class="btn btn-warning"> <a href="https://mohamedaliaziz.github.io/portfoilo/"
+                                target="_blank">Eng:mohamed ali</a></h6>
+                    </li>
+
+
+
+                </ul>
+
+
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="sales" class="d-block">
+
+        <div class="container">
+            <div class="row text-center">
+
+
+                <div class="col-md-9">
+                    <label for="name">الاسم:</label>
+                    <input type="text" class="form-control" id="namee">
+                </div>
+                <div class="col-md-3  align-items-end">
+                    <label for="name">التاريخ:</label>
+                    <div id="date"></div>
+
+                </div>
+            </div>
+            <div class="row text-center">
+
+                <div class="col-md-12 d-flex">
+
+                    <div class="col-md-6 ">
+                        <label for="ye">سعر الابيض</label>
+                        <input type="text" class="form-control " id="white_chick_price">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="white_chick">كتكوت ابيض:</label>
+                        <input type="text" class="form-control  " id="white_katkout_qty">
+                    </div>
+
+                </div>
+                <div class="col-md-12 d-flex">
+
+                    <div class="col-md-6">
+                        <label for="sasso_chick">سعر الساسو:</label>
+                        <input type="text" class="form-control col-md-3" id="sasso_chick_price">
+
+                    </div>
+                    <div class="col-md-6">
+                        <label for="ye_price"> كتكوت ساسو:</label>
+                        <input type="text" class="form-control col-md-3" id="sasso_katkout_qty">
+
+                    </div>
+                </div>
+                <div class="col-md-12 d-flex">
+
+                    <div class="col-md-6">
+                        <label for="sasso_chick_price">سعر البلدي:</label>
+                        <input type="text" class="form-control col-md-3" id="baladi_chick_price">
+
+                    </div>
+                    <div class="col-md-6">
+
+                        <label for="sasso_chick_3">كتكوت بلدي:</label>
+                        <input type="text" class="form-control col-md-3" id="baladi_katkout_qty">
+                    </div>
+
+                </div>
+                <div class="col-md-12 d-flex">
+
+                    <div class="col-md-6">
+                        <label for="sasso_chick_2"> سعر الدقي:</label>
+                        <input type="text" class="form-control col-md-3" id="doki_chick_price">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="sasso_chick_price_3"> كتكوت الدقي:</label>
+                        <input type="text" class="form-control col-md-3" id="doki_katkout_qty">
+                    </div>
+                </div>
+                <div class="col-md-12 d-flex">
+
+                    <div class="col-md-6">
+                        <label for="chick_price"> سعر البط :</label>
+                        <input type="text" class="form-control col-md-3" id="duck_price">
+                    </div>
+                    <div class="col-md-6">
+
+                        <label for="sasso_chick_price_2">اليط :</label>
+                        <input type="text" class="form-control col-md-3" id="duck_katkout_qty">
+
+                    </div>
+                </div>
+                <div class="col-md-12 d-flex">
+
+                    <div class="col-md-6">
+                        <label for="chick_price"> المدفوع :</label>
+                        <input type="text" class="form-control col-md-3" id="pay">
+                    </div>
+                    <div class="col-md-6">
+
+                        <label for="sasso_chick_price_2">القديم :</label>
+                        <input type="text" class="form-control col-md-3" id="old">
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            </div>
+            <div class="row text-center mt-4">
+                <div class="col-md-12">
+
+                    <button  onclick={addProudcts()} class="btn d-block btn-primary w-100"id="add-btn">إضافة</button>
+                    <button id="updatebtn" onclick={formupdate(ubdate)} class="btn btn-warning d-none w-100"> تحديث</button>
+                </div>
+            </div>
+            <div class="row text-center mt-4">
+                <div class="col-md-6">
+                    <input oninput="serchProducts(this.value)" id="sreach" placeholder="بحث بالاسم" type="text"
+                        class="form-control  m-auto ">
+                </div>
+                <div class="col-md-6">
+                    <input oninput="dateProducts(this.value)" id="date" placeholder="بحث بالتاريخ" type="text"
+                        class="form-control  m-auto ">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="row mt-4 container-fluid m-auto">
+            <div class="col-md-12">
+                <table class="table text-danger overflow-hidden text-center bg-white" id="myTable">
+                    <thead class="header-row">
+                        <!-- <tr class="">
+
+                            <th colspan="2"> <input type="number"></th>
+
+                            <th colspan="2"> <input type="number"></th>
+
+                            <th colspan="2"> <input type="number"></th>
+
+                            <th colspan="2"> <input type="number"></th>
+
+                            <th colspan="2"><input type="number"></th>
+
+ 
+
+
+
+
+
+
+                        </tr> -->
+                        <tr>
+                            <th>الاسم</th>
+                            <th>التاريخ</th>
+                            <th> الابيض</th>
+                            <th>السعر </th>
+                            <th> الساسو</th>
+                            <th>السعر </th>
+                            <th> البلدي</th>
+                            <th>السعر </th>
+                            <th> الدقي</th>
+                            <th>السعر </th>
+                            <th>اليط</th>
+                            <th>السعر </th>
+
+                            <th>الاجمالي </th>
+                            <th>المدفوع </th>
+                            <th>القديم </th>
+                            <th>الباقي </th>
+                            <th>تعديل </th>
+                            <th>حذف </th>
+
+
+
+
+
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <section id="expenses" class="d-none">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <label for="masrofat">مصروفات</label>
+                    <input id="expenes" class="form-control" type="text">
+                    <label for="masrofat">السعر</label>
+                    <input id="price" class="form-control" type="text">
+                    <label for="masrofat">اسم المورد</label>
+                    <input id="namemoward" class="form-control" type="text">
+
+                </div>
+                <div class="col-md-6 text-center">
+                    <label for="masrofat">العدد</label>
+                    <input id="nubmer" class="form-control" type="text">
+                    <label for="masrofat">القطيع</label>
+                    <input id="katea" class="form-control" type="text">
+
+                    <label for="masrofat">التوريد</label>
+                    <input id="tawred" class="form-control" type="text">
+                </div>
+
+            </div>
+            <button id="btnexpenes" onclick="addexpenes()" class="btn mt-5 d-block w-100 btn-info">اضافه</button>
+            <button id="updateexpwnes" onclick="update(ubdatee)" class="btn mt-5 d-none w-100 btn-info">تعديل</button>
+            <div class="row text-center mt-4">
+                <div class="col-md-6">
+                    <input oninput="serchexpenes(this.value)" id="sreach" placeholder="بحث بالاسم" type="text"
+                        class="form-control  m-auto ">
+                </div>
+                <div class="col-md-6">
+                    <input oninput="dateProducts(this.value)" id="date" placeholder="بحث بالتاريخ" type="text"
+                        class="form-control  m-auto ">
+                </div>
+            </div>
+        </div>
+
+        <table class="bg-white text-danger">
+            <thead>
+                <tr>
+                    <th rowspan="2">التاريخ</th>
+                    <th rowspan="2">مصروفات</th>
+                    <th rowspan="2">العدد</th>
+                    <th rowspan="2">السعر</th>
+                    <th rowspan="2">القطيع</th>
+                    <th rowspan="2">اسم المورد</th>
+                    <th rowspan="2">التوريد</th>
+                    <th rowspan="2">تعديل </th>
+                    <th rowspan="2">حذف</th>
+                </tr>
+
+            </thead>
+            <tbody id="t-body">
+
+
+            </tbody>
+        </table>
+
+    </section>
+
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
